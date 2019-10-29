@@ -29,8 +29,8 @@ if __name__ == "__main__":
     np.random.seed(40)
 
     # Load Data 
-    train = pd.read_csv("../mlflow_track/train_airbnb.csv")
-    test = pd.read_csv("../mlflow_track/test_airbnb.csv")
+    train = pd.read_csv("../mram_mlflow/train_airbnb.csv")
+    test = pd.read_csv("../mram_mlflow/test_airbnb.csv")
 
     # The predicted column is "price"
     train_x = train.drop(["price"], axis=1)
