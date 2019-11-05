@@ -26,5 +26,5 @@ def train_random_forest(ntrees):
 
 
 if __name__ == "__main__":
-    for ntrees in [100, 150, 200, 250, 300, 350, 400, 450, 500]:
+    for ntrees in [100, 300, 500]:
         train_random_forest(ntrees)
